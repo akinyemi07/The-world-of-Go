@@ -1,6 +1,12 @@
-package main 
+package main
 
-func main(){
+import "fmt"
 
-	InvestmentCalcualtor()
+func main() {
+
+	InvestmentCalculator()
+	fmt.Println(" ")
+
+	fmt.Println("THE PROFIT CALCULATOR PROGRAM")
+	ProfitCalculator()
 }
