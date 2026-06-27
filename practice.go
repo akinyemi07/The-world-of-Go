@@ -19,6 +19,6 @@ func practice() {
 	fmt.Scan(&radius)
 	area = pi * math.Pow(radius, 2)
 
-	fmt.Println("the area of the circle is: ", area)
+	fmt.Printf("the area of the circle is: %v", area)
 
 }

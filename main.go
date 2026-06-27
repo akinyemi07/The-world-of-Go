@@ -12,4 +12,7 @@ func main() {
 
 	fmt.Println("THE PRACTICE CODE")
 	practice()
+
+	fmt.Println("temperature converison program")
+	Temp()
 }
