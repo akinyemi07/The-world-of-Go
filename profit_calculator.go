@@ -1,10 +1,10 @@
-package main 
+package main
 
 import (
-	   "fmt"
+	"fmt"
 )
 
-func ProfitCalculator(){
+func ProfitCalculator() {
 	const taxRate float64 = 2.5
 
 	var (
@@ -19,17 +19,14 @@ func ProfitCalculator(){
 
 	profit = revenue - expenses
 
-	taxation = (taxRate/100) * profit
+	taxation = (taxRate / 100) * profit
 
 	result = profit - taxation
 
-	earningRatio = profit/result
+	earningRatio = profit / result
 
 	fmt.Println("the earning before tax is: ", profit)
 	fmt.Println("the earning after tax is: ", result)
 	fmt.Println("the earning ratio is: ", earningRatio)
-
-
-
 
 }
